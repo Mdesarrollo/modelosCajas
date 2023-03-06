@@ -1,0 +1,31 @@
+.container{
+    background: orange;
+    max-width: 800px;
+    margin: 0 auto ;
+    
+}
+.header{
+    background: blue;
+    height: 60px;
+}
+.wrapper{
+    background: yellow;
+}
+.menu{
+    background: green;
+    width: 30%;
+    float: left;
+    height: 300px;
+}
+.content{
+    background: aqua;
+    width: 70%;
+    float: left;
+    height: 300px;
+
+}
+.footer{
+    background: pink;
+    clear: left;
+    height: 100px;
+}
