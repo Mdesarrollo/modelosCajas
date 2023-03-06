@@ -2,29 +2,31 @@
     background: orange;
     max-width: 800px;
     margin: 0 auto ;
-    
+    display: grid;
+    grid-template-areas: 
+    'header header header ' 
+    'menu content content '
+    'footer footer footer ';
 }
 .header{
     background: blue;
     height: 60px;
+    grid-area: header;
 }
-.wrapper{
-    background: yellow;
-    flex-direction: row-reverse;
-    display: flex;
-}
+
 .menu{
     background: green;
-    width: 50%;
     height: 300px;
+    grid-area: menu;
 }
 .content{
     background: aqua;
-    width: 50%;
     height: 300px;
-
+    grid-area: content;
 }
 .footer{
     background: pink;
     height: 100px;
+    grid-area: footer;
+
 }
